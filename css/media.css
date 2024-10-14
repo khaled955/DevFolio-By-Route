@@ -1,0 +1,100 @@
+@media (min-width: 1400px) {
+     .container {
+      max-width: 1140PX;
+    }
+  }
+
+
+  @media (max-width: 490px) {
+ 
+    h2.my-title::after{
+        bottom: -70px;
+    }
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+@media (min-width:991px){
+
+
+    .my-menu{
+        position: absolute;
+        background-color: #fff;
+        top: 0px;
+        left: -154px;
+        opacity: 0;
+        transition: opacity 350ms;
+    }
+    
+     ul .my-drop-item:hover .my-menu{
+        opacity: 1;
+    }
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:991px){
+
+    nav .nav-link:hover::before{
+        width: 0%;
+    }
+
+
+
+    nav .nav-link.active::before{
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 0%;
+        bottom: -5px;
+        transition: width 350ms;
+    }
+
+
+    .my-drop-item:hover .sub-menu{
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .sub-menu,.my-menue {
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.296);
+    }
+
+ 
+
+
+}
+
+
+
+
+
+
+
+
